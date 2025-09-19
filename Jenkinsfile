@@ -3,7 +3,7 @@ properties([
         string(
             defaultValue: 'dev',
             name: 'Environment',
-            description: 'Enter the environment (e.g., dev, staging, prod)'
+            description: 'dev (e.g., dev, staging, prod)'
         ),
         choice(
             choices: ['plan', 'apply', 'destroy'], 
